@@ -1,0 +1,75 @@
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1182px;
+    height: 506px;
+    top: 0.5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+
+#button1 {
+    width: screen.availWidth - 80px;
+    height: 50px;
+    margin:auto;
+    display:block;
+    background-color: #b3d1ff;
+    font-family: Arial;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#colorpicker {
+    width: 500px;
+    margin:auto;
+    display:block;
+    text-align: center;
+    font-family: Arial;
+}
+
+#labelAnzahl {
+    width: 500px;
+    margin:auto;
+    display:block;
+    text-align: center;
+    font-family: Arial;
+}
+
+#labelThickness {
+    width: 500px;
+    margin:auto;
+    display:block;
+    text-align: center;
+    font-family: Arial;
+}
+#labelLength {
+  width: 500px;
+  margin: auto;
+  display:block;
+  text-align: center;
+  font-family: Arial;
+}
+
+#labelPictures {
+    width: 500px;
+    margin:auto;
+    display:block;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial;
+}
+
+h4 {
+    text-align: center;
+    font-family: Arial;
+}

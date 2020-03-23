@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abstract Portrait Maker</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Welcome to the abstract portrait maker!</h1><br>
+    <canvas align="center"></canvas><br>
+    <h4>Please select from the following:</h4>
+    <form name="listepictures">
+        <label id="labelPictures" for="picture">picture:
+            <select name="picture" id="picture" size="1">
+                <option selected="images/leoniden.jpg" value="images/portrait1.jpg">1</option>
+                <option value="images/portrait2.jpg">2</option>
+            </select>
+        </label>
+    </form>
+    <label id="labelAnzahl" for="anzahl">number of lines:
+        <input id="anzahl" name="anzahl" type="number"></input>
+    </label>
+    <form name="listethickness">
+        <label id="labelThickness" for="thickness">thickness of lines:
+            <select name="thickness" id="thickness" size="1">
+                <option value="1.2">very thin</option>
+                <option selected="1.5" value="1.5">thin</option>
+                <option value="2">medium</option>
+                <option value="2.5">thick</option>
+                <option value="3">very thick</option>
+            </select>
+        </label>
+    </form>
+    <form name="listelength">
+        <label id="labelLength" for="length">length of lines:
+            <select name="length" id="length" size="1">
+                <option value="30">short</option>
+                <option selected="50" value="50">medium</option>
+                <option value="70">long</option>
+            </select>
+        </label>
+    </form>
+    <label id="colorpicker" for="color">color of the lines:
+        <input id="color" type="color">
+    </label><br>
+    <button onclick="location.reload()" id="button1">Do the magic!</button>
+    <script src="canvas.js"></script>
+</body>
+</html>
