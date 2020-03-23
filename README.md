@@ -1,6 +1,6 @@
 # abstract_portrait_maker
 ## our first website 
-* link to the website: https://marisawodrich.github.io/abstract_portrait_maker/
+* link to the website: https://marisawodrich.github.io/portrait-playground/
 * On our website, the user can create an abstract portrait. For that, he can choose between 3 images, how many lines the portrait will have, how thick those lines are, how long they can be and the color of them. The user can push a button to start the drawing process.
 
 ## code structure
