@@ -176,7 +176,7 @@ function drawLine(){
         ctx.moveTo(startX, startY);
         ctx.lineTo(xHighestInt, yHighestInt);
         ctx.strokeStyle = 'rgb(255, 255, 255)';
-        ctx.lineWidth = thicknessOfLine;
+        ctx.lineWidth = thicknessOfLine * 3;
         ctx.stroke();
 
         // remember where we came from, so that we don't go back the same line
