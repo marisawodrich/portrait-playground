@@ -26,7 +26,7 @@ height_original = image.clientHeight;
 //imageWidth = 354;
 //imageHeight = 450;
 
-imageWidth = 200;
+imageWidth = 354;
 imageHeight = height_original * imageWidth / width_original
 
 // abs stands für Abstände zwischen den Bildern
