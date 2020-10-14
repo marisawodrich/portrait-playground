@@ -23,8 +23,10 @@ image.src = selectedImage;
 width_orginal = image.width;
 height_original = image.height;
 
-imageWidth = 354;
+//imageWidth = 354;
 //imageHeight = 450;
+
+imageWidth = 200;
 imageHeight = height_original * imageWidth / width_original
 
 // abs stands für Abstände zwischen den Bildern
