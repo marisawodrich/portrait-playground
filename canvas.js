@@ -20,8 +20,8 @@ var selectedImage = window.document.listepictures.picture.options[window.documen
 
 image.src = selectedImage;
 
-width_original = image.clientWidth;
-height_original = image.clientHeight;
+width_original = image.width;
+height_original = image.height;
 
 //imageWidth = 354;
 //imageHeight = 450;
