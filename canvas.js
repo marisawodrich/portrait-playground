@@ -20,14 +20,11 @@ var selectedImage = window.document.listepictures.picture.options[window.documen
 
 image.src = selectedImage;
 
-width_original = image.width;
-height_original = image.height;
-
 //imageWidth = 354;
 //imageHeight = 450;
 
 imageWidth = 354;
-imageHeight = height_original * imageWidth / width_original
+imageHeight = image.height * 354 / image.width
 
 // abs stands für Abstände zwischen den Bildern
 abs = new Number(30);
