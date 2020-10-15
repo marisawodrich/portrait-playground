@@ -86,6 +86,11 @@ function z(point1, point2) {
 //   return Math.floor(Math.random() * (max - min) ) + min;
 // }
 
+function getRandomIntInclusive(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min +1)) + min; 
+} 
 
 
 /*---------------------------------------------------------
@@ -93,8 +98,8 @@ THE MAGIC CALCULATION OF WHAT TO DRAW
 -----------------------------------------------------------*/
 
 // starting point (just a random one for now. Idea: choose a dark one from image)
-startX = new Number(abs + imageWidth/4);
-startY = new Number(abs + imageHeight/4);
+startX = new Number(abs + getRandomIntInclusive(0,imageWidth));
+startY = new Number(abs + getRandomIntInclusive(0,imageHeight));
 // startX = getRndInteger(60,350);
 // startY = getRndInteger(60,440);
 
